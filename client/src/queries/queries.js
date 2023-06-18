@@ -21,6 +21,7 @@ const getBookQuery = gql`
         age
         books{
           name
+          genre
         }
       }
     }

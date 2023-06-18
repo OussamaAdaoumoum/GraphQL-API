@@ -10,7 +10,7 @@ const app = express();
 //allow cross-origin requests 
 app.use(cors());
 
-mongoose.connect('mongodb+srv://oussama:Oussama2001@cluster0.aqunadl.mongodb.net/');
+mongoose.connect('yourDatabaseApi');
 mongoose.connection.once('open',()=>{
     console.log("connected to the database")
 })
